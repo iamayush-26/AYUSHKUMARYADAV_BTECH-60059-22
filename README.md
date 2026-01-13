@@ -116,6 +116,12 @@ If backend runs on a different port or host, update this value.
 - Tasks are stored user-wise
 - Drag & Drop updates task status instantly
 
+<img width="2559" height="1439" alt="Screenshot 2026-01-14 023139" src="https://github.com/user-attachments/assets/ce9040c9-3a7a-434b-b018-2ba3cee3a784" />
+<img width="2559" height="1439" alt="Screenshot 2026-01-14 023200" src="https://github.com/user-attachments/assets/5b578a42-3e40-4623-8984-e59cc046634d" />
+<img width="2559" height="1439" alt="Screenshot 2026-01-14 023214" src="https://github.com/user-attachments/assets/c0f28b1c-5665-4b28-b4d9-8cb6347e3c72" />
+
+
+Video: https://drive.google.com/file/d/113xen2axDvBECP8rZk7_fMkJNbTm6VCQ/view?usp=sharing
 ---
 
 ## 👨‍💻 Author

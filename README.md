@@ -1,4 +1,4 @@
-# TaskFlow — Kanban Task Management App ✅
+# TaskFlow — Kanban Task Management App 
 
 TaskFlow is a **Kanban-based Task Management System** built for the SDE assignment.  
 It supports **Authentication (Login/Register)**, **User-specific tasks**, **CRUD operations**, and a **Drag & Drop Kanban Board** with task status tracking.

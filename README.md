@@ -1,98 +1,122 @@
-# Task Management System (Kanban Based)
+# TaskFlow — Kanban Task Management App ✅
 
-## Project Overview
-A full-stack Task Management application with user authentication and Kanban-style task board.
+TaskFlow is a **Kanban-based Task Management System** built for the SDE assignment.  
+It supports **Authentication (Login/Register)**, **User-specific tasks**, **CRUD operations**, and a **Drag & Drop Kanban Board** with task status tracking.
 
-## Tech Stack
-- **Frontend**: React.js, Tailwind CSS, @dnd-kit for drag & drop
-- **Backend**: Node.js, Express.js, MongoDB, JWT Authentication
+---
 
-## Setup Instructions
+## 📌 Features
 
-### Backend Setup
-1. Navigate to backend directory:
+### ✅ Authentication
+- Register (Name, Email, Password)
+- Login (Email, Password)
+- Logout
+- JWT-based authentication
+- Protected routes
+
+### ✅ User Profile
+- View logged-in user profile (Name, Email, ID)
+
+### ✅ Task Management (CRUD)
+- Add a new task
+- Edit task details
+- Delete task
+- View all tasks
+
+### ✅ Kanban Board
+- 3 Columns:
+  - **Pending**
+  - **In Progress**
+  - **Completed**
+- Drag & Drop tasks between columns
+- Auto update task status in backend
+
+### ✅ Task Fields
+Each task contains:
+- `title`
+- `description`
+- `status` (`pending`, `progress`, `completed`)
+- `dueDate`
+- `createdAt`
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- HTML5
+- Bootstrap 5
+- JavaScript (Fetch API)
+- Font Awesome
+
+### Backend
+- REST API (Node.js / Express or Python based API)
+- JWT Authentication
+
+### Database
+- MongoDB / SQL (depending on backend setup)
+
+---
+
+## 📂 Project Structure (Recommended)
+
+TaskFlow/
+│── frontend/
+│ └── index.html
+│
+│── backend/
+│ ├── routes/
+│ ├── controllers/
+│ ├── models/
+│ ├── middleware/
+│ ├── server.js (or app.py)
+│ └── .env
+│
+└── README.md
 
 
+## ⚙️ Setup Instructions
 
+### ✅ 1) Backend Setup
 
+Go to backend folder:
 
-2. Install dependencies:
-
-ayush@Ayush MINGW64 ~ (master)
-$ cd backend
+In bash
+cd backend
 npm install
-bash: cd: backend: No such file or directory
-npm error code ENOENT
-npm error syscall open
-npm error path C:\Users\ayush\package.json
-npm error errno -4058
-npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\ayush\package.json'
-npm error enoent This is related to npm not being able to find a file.
-npm error enoent
-npm error A complete log of this run can be found in: C:\Users\ayush\AppData\Local\npm-cache\_logs\2026-01-13T07_47_02_447Z-debug-0.log
+PORT=5000
+JWT_SECRET=your_secret_key
+DB_URI=your_database_connection_string
+npm start
+http://localhost:5000
+✅ 2) Frontend Setup
 
-ayush@Ayush MINGW64 ~ (master)
-$ cd /c/Users/ayush/Downloads
+Go to frontend folder:
 
-ayush@Ayush MINGW64 ~/Downloads (master)
-$ /c/Users/ayush/Downloads/New Folder(9)
-bash: syntax error near unexpected token `('
-
-ayush@Ayush MINGW64 ~/Downloads (master)
-$ cd C:\Users\ayush\Downloads\New folder (9)
-bash: syntax error near unexpected token `('
-
-ayush@Ayush MINGW64 ~/Downloads (master)
-$ ^C
-
-ayush@Ayush MINGW64 ~/Downloads (master)
-$ cd "C:/Users/ayush/Downloads/New folder (9)"
-
-ayush@Ayush MINGW64 ~/Downloads/New folder (9) (master)
-$ ls
-Backend/  Forntend/
-
-ayush@Ayush MINGW64 ~/Downloads/New folder (9) (master)
-$ cat > README.md << 'EOF'
-# Task Management System (Kanban Based)
-
-## Project Overview
-A full-stack Task Management application with user authentication and Kanban-style task board.
-
-## Tech Stack
-- **Frontend**: React.js, Tailwind CSS, @dnd-kit for drag & drop
-- **Backend**: Node.js, Express.js, MongoDB, JWT Authentication
-
-## Setup Instructions
-
-### Backend Setup
-1. Navigate to backend directory:
->
->
->
->
->
-> 2. Install dependencies:
->
- 
+cd frontend
 
 
+Open index.html directly in browser
+OR run with Live Server extension (recommended).
+
+"http://localhost:5000/api
 
 
+If backend runs on a different port or host, update this value.
 
-3. Start the development server:
+- `node_modules` is not uploaded to GitHub (recommended best practice).
 
-## API Endpoints
-- `POST /api/auth/register` - Register user
-- `POST /api/auth/login` - Login user
-- `GET /api/tasks` - Get all tasks
-- `POST /api/tasks` - Create task
-- `PUT /api/tasks/:id` - Update task
-- `DELETE /api/tasks/:id` - Delete task
+- Make sure MongoDB is running locally or provide a MongoDB Atlas URI.
 
-## Database
-Use MongoDB (local or MongoDB Atlas)
+---
 
-## Deployment
-- Backend: Render/Railway
-- Frontend: Vercel/Netlify
+## ✅ Final Output
+- Fully working Kanban Board UI
+- Authentication integrated
+- Tasks are stored user-wise
+- Drag & Drop updates task status instantly
+
+---
+
+## 👨‍💻 Author
+**Ayush Kumar Yadav**

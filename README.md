@@ -7,23 +7,23 @@ It supports **Authentication (Login/Register)**, **User-specific tasks**, **CRUD
 
 ## 📌 Features
 
-### ✅ Authentication
+### Authentication
 - Register (Name, Email, Password)
 - Login (Email, Password)
 - Logout
 - JWT-based authentication
 - Protected routes
 
-### ✅ User Profile
+### User Profile
 - View logged-in user profile (Name, Email, ID)
 
-### ✅ Task Management (CRUD)
+### Task Management (CRUD)
 - Add a new task
 - Edit task details
 - Delete task
 - View all tasks
 
-### ✅ Kanban Board
+### Kanban Board
 - 3 Columns:
   - **Pending**
   - **In Progress**
@@ -31,7 +31,7 @@ It supports **Authentication (Login/Register)**, **User-specific tasks**, **CRUD
 - Drag & Drop tasks between columns
 - Auto update task status in backend
 
-### ✅ Task Fields
+### Task Fields
 Each task contains:
 - `title`
 - `description`
@@ -77,7 +77,7 @@ TaskFlow/
 
 ## ⚙️ Setup Instructions
 
-### ✅ 1) Backend Setup
+### 1) Backend Setup
 
 Go to backend folder:
 
@@ -89,7 +89,7 @@ JWT_SECRET=your_secret_key
 DB_URI=your_database_connection_string
 npm start
 http://localhost:5000
-✅ 2) Frontend Setup
+2) Frontend Setup
 
 Go to frontend folder:
 
@@ -110,7 +110,7 @@ If backend runs on a different port or host, update this value.
 
 ---
 
-## ✅ Final Output
+## Final Output
 - Fully working Kanban Board UI
 - Authentication integrated
 - Tasks are stored user-wise

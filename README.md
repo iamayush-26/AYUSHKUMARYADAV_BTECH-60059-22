@@ -60,19 +60,19 @@ Each task contains:
 
 ## 📂 Project Structure (Recommended)
 
-TaskFlow/
-│── frontend/
-│ └── index.html
-│
-│── backend/
-│ ├── routes/
-│ ├── controllers/
-│ ├── models/
-│ ├── middleware/
-│ ├── server.js (or app.py)
-│ └── .env
-│
-└── README.md
+TaskFlow/<br>
+│── frontend/<br>
+│ └── index.html<br>
+│<br>
+│── backend/<br>
+│ ├── routes/<br>
+│ ├── controllers/<br>
+│ ├── models/<br>
+│ ├── middleware/<br>
+│ ├── server.js (or app.py)<br>
+│ └── .env<br>
+│<br>
+└── README.md<br>
 
 
 ## ⚙️ Setup Instructions
